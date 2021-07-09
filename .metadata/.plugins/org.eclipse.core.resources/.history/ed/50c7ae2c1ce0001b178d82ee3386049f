@@ -1,0 +1,5 @@
+package com.company.books.backend.dao;
+
+public interface ICategoriaDao extends MongoRepository<Categoria, Long>{
+
+}

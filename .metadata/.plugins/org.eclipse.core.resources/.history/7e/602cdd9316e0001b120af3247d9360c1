@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      database: books_db
+      url: mongodb+srv://user_node_cafe:u6Cd9f2pT9tSctqE@cluster0.1l9vs.mongodb.net/books_db?retryWrites=true&w=majority

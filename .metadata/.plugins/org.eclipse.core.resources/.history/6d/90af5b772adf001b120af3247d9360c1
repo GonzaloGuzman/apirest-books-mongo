@@ -1,0 +1,8 @@
+package com.company.books.backend.service;
+
+
+public interface ICategoriaService {
+	
+	public CategoriaResponseRest buscarCategoria();
+
+}

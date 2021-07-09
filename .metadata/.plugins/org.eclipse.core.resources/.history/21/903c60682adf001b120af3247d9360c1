@@ -1,0 +1,9 @@
+package com.company.books.backend.service;
+
+import com.company.books.backend.model.Categoria;
+
+public interface ICategoriaService {
+	
+	public Categoria buscarCategoria();
+
+}

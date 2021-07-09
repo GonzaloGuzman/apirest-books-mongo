@@ -1,0 +1,8 @@
+package com.company.books.backend.response;
+
+@Data
+public class CategoriaResponseRest extends RespondeRest {
+	
+	private CategoriaResponse categoriaResponse = new CategoriaResponse();
+
+}

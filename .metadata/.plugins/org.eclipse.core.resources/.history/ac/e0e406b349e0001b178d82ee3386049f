@@ -1,0 +1,11 @@
+package com.company.books.backend.response;
+
+import lombok.Data;
+
+@Data
+public class CategoriaResponseRest extends RespondeRest{
+	
+	private CategoriaResponse categoriaResponse = new CategoriaResponse();
+
+
+}

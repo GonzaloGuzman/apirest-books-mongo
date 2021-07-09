@@ -1,0 +1,31 @@
+package com.company.books.backend.model;
+
+import java.io.Serializable;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Document(collection = "categorias")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Categoria implements Serializable {
+	
+	
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7797377065654502352L;
+	
+	@Id
+	private String id;
+	private String nombre;
+	private String descripcion;
+	
+}

@@ -1,0 +1,14 @@
+package com.company.books.backend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("n.jczb.service.jczbserviceprovider.mapper")
+public class ApirestBooksApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApirestBooksApplication.class, args);
+	}
+
+}

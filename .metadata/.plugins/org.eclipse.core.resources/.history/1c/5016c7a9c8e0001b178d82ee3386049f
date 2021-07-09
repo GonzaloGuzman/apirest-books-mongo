@@ -1,0 +1,20 @@
+package com.company.books.backend.model;
+
+import javax.persistence.Entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Document(collection = "categorias")
+public class Categoria{
+		
+	@Id
+	private String id;
+	private String nombre;
+	private String descripcion;
+	
+}

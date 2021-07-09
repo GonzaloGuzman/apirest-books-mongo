@@ -1,0 +1,6 @@
+server.port=8081
+
+mongodb.database=tasks
+mongodb.connection.string=mongodb+srv://user_node_cafe:u6Cd9f2pT9tSctqE@cluster0.1l9vs.mongodb.net/tasks?retryWrites=true&w=majority
+
+mongodb+srv://user_node_cafe:u6Cd9f2pT9tSctqE@cluster0.1l9vs.mongodb.net/tasks?retryWrites=true&w=majority

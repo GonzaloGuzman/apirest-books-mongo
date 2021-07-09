@@ -1,0 +1,9 @@
+package com.company.books.backend.response;
+
+import java.util.*;
+
+public class CategoriaResponse {
+	
+	private List<categoria> Categoria;
+
+}

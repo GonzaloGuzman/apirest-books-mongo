@@ -1,0 +1,23 @@
+package com.company.books.backend.controllers;
+
+
+
+
+@RestController
+@RequestMapping("/v1")
+public class CategoriaRestController {
+	
+	@Autowired
+	private ICategoriaService service;
+	
+	@GetMapping("/categorias")
+	public ResponseEntity<CategoriaResponse> consultaCat() {
+		
+		/*ResponseEntity<CategoriaResponseRest> response = ResponseEntity.buscarCategoria();
+		return response;*/
+		
+		return null
+		
+	}
+
+}

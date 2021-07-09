@@ -1,0 +1,7 @@
+package com.company.books.backend.response;
+
+public class CategoriaResponse {
+	
+	private List<categoria>
+
+}

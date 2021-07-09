@@ -1,0 +1,19 @@
+package com.company.books.backend.service;
+
+import org.springframework.http.ResponseEntity;
+
+import com.company.books.backend.response.CategoriaResponseRest;
+
+public interface ICategoriaService {
+
+	public ResponseEntity<CategoriaResponseRest> buscarCategoria();
+
+	public ResponseEntity<CategoriaResponseRest> buscarPorIdString id);
+
+	/*public ResponseEntity<CategoriaResponseRest> crearCategoria(Categoria categoria);
+
+	public ResponseEntity<CategoriaResponseRest> actualizarCategoria(Categoria categoria, String nombre);
+
+	public ResponseEntity<CategoriaResponseRest> eliminarCategoria(String nombre);*/
+
+}
